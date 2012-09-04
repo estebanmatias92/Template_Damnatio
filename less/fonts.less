@@ -1,0 +1,290 @@
+/*                    Credit: http://www.e-mable.com/              */
+/* Imports */
+@import "vars_funs.less";
+/* Google Web Fonts */
+@import "http://fonts.googleapis.com/css?family=Convergence|Averia+Libre:700,400|Righteous|Montserrat";
+
+/*----------------------- E-MABLE FONTS STYLES ----------------------
+-------------------------------------------------------------------*/
+/*------- BACKGROUND --------
+---------------------------*/
+
+
+body{
+  color: @lighter-1-color;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+//line-height: 1.5em;
+//font-style: italic;
+//letter-spacing: 1px;
+}
+
+
+hgroup{
+  font-family: 'Righteous', cursive;
+  font-variant: small-caps;
+  font-weight: normal;
+}
+
+
+h1{
+  font-size: 2.5em;
+  margin-bottom: 0.4em;
+}
+
+h2{
+  font-size: 2.25em;
+  margin-bottom: 0.5em;
+}
+
+h3{
+  font-size: 2em;
+  margin-bottom: 0.6em;
+}
+
+h4{
+  font-size: 1.3em;
+  margin-bottom: 0.7em;
+}
+
+h5{
+  font-size: 1em;
+  margin-bottom: 0.8em;
+}
+
+h6{
+  font-size: 0.5em;
+  margin-bottom: 0.9em;
+}
+
+ul{
+  li{
+    
+  }
+}
+
+a{
+  color: @darker-1-color;
+  display: block;
+  font-family: 'Convergence', sans-serif;
+  font-weight: bold; 
+}
+
+p{
+  margin: auto 5px;
+  text-align: left;
+}
+
+
+/*--------- HEADER ----------
+---------------------------*/
+
+
+nav{
+  ul{
+  	li{
+  	  a{
+  	    display: table-cell;
+        font-size: 1.1em; 
+	      text-align: center;
+	      vertical-align: middle;
+        text-shadow: 0 1px 0 hsla(41, 82%, 85%,1);
+  	  }
+  	}
+  }
+}
+
+#logo{ 
+  text-align: center; 
+  h1{
+    color: @white-color;
+    font-family: 'Averia Libre', cursive;
+    font-size: 4em;
+    font-variant: small-caps;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin: auto;
+    text-shadow: 1px 2px 3px @light-shadow;
+  }
+}
+
+/*--------- SLIDER --------*//*----- (E-mable_Mod) ----*/
+
+
+.theme-default .nivo-caption {
+  //font-family: 'Convergence', sans-serif;
+}
+.theme-default .nivo-caption a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color: #fff;
+}
+.nivo-caption {
+  text-align: center;
+  p{
+  //color: @light-1-color;
+    font-size: 0.95em;
+  //font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: 1.1em;
+  //word-spacing: 0.05em;
+    text-align: left;
+    margin: 0;
+  }
+  hgroup{
+    color: @dark-1-color;
+  }
+}
+
+.nivo-caption a {
+    display: inline !important;
+}
+
+
+/*---------- MAIN -----------
+---------------------------*/
+#service{
+  ul{
+    margin-top: 25px;
+    li{
+      margin: 12px 5px;
+    }
+  }
+}
+
+#service{
+  .area{
+    h2{
+      margin-top: 0.5em;
+    }
+  }
+}
+
+#Damnatio-Form{
+  legend{
+    font-size: 1.3em;
+    font-variant: small-caps;
+    font-weight: bold;
+    float: right;
+    letter-spacing: 1px;
+    margin: 0.9em 0.5em 0.3em 0.5em;
+  }
+  label{
+    cursor: pointer;
+    display: block;
+    font-family: 'Righteous', cursive;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 1em 0.5em 0.5em 0.5em;
+  }
+  input[type=Submit]{
+    background: linear-gradient(to bottom, @dark-2-color 0%, @light-2-color 50%, @dark-2-color 100%) !important;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZzEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjOGU3NTNlIi8+PHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNmOWNjNmMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4ZTc1M2UiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZzEpIiAvPjwvc3ZnPg==);
+    border: 1px solid hsla(0, 0%, 0%,.3);
+    border-radius: 8px;
+    bottom: 25px;
+    box-shadow: 0 0 8px 0px @dark-shadow;
+    color: @darker-1-color;
+    cursor: pointer;
+    font-family: 'Convergence', sans-serif;
+    font-weight: bold; 
+    opacity: 1;
+    position: absolute;
+    right: 8px;
+    text-shadow: 0 1px 0 hsla(41, 39%, 65%,1);
+  .box_measures(30px, 75px);
+  }
+  input[type=Submit]:hover{
+    box-shadow: 0 0 8px 0px @white-color;
+    //color: @base-1-color;
+    transition: all 0.2s;
+  }
+  input:-moz-placeholder, textarea:-moz-placeholder{
+    color: hsl(41, 39%, 40%, 0.7);
+  }
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
+    color: hsl(41, 39%, 40%, 0.7);
+  }
+  input:-ms-input-placeholder, textarea:-ms-input-placeholder{
+    color: hsl(41, 39%, 40%, 0.7);  
+  }
+  input,textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: @darker-2-color;
+  }
+}
+
+.main{
+  p,li{
+    color: @light-2-color;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    margin: auto 5px;
+    text-align: left;
+  //word-spacing: 1px;
+  }
+  hgroup{
+    color: @lighter-1-color;
+    letter-spacing: 1px;
+  }
+}
+
+.link-more{
+  background: linear-gradient(to bottom, @dark-2-color 0%, @light-2-color 50%, @dark-2-color 100%) !important;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZzEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjOGU3NTNlIi8+PHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNmOWNjNmMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4ZTc1M2UiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZzEpIiAvPjwvc3ZnPg==);
+  border: 1px solid hsla(0, 0%, 0%,.3);
+  border-radius: 8px;
+  bottom: 25px;
+  box-shadow: 0 0 8px 0px @dark-shadow;
+  box-sizing: border-box;
+  color: @darker-1-color;
+  padding-top: 7px;
+  position: absolute;
+  right: 8px;
+  text-shadow: 0 1px 0 hsla(41, 39%, 65%,1);
+  .box_measures(30px, 75px);
+}
+
+.link-more:hover{
+  box-shadow: 0 0 8px 0px @white-color;
+  //color: @base-1-color;
+  transition: all 0.2s;
+}
+
+
+/*--------- FOOTER ----------
+---------------------------*/
+
+
+footer{
+  p{
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    line-height: 1.1em;
+    text-align: center;
+  //word-spacing: 0.05em;
+  }
+  hgroup{
+    color: @base-2-color;
+    text-decoration: underline;
+  }
+}
+
+#sitemap{
+  margin-top: 30%;
+  li{
+    a{
+      color: @lighter-2-color;
+      font-size: 17px;
+      font-weight: bold;
+      margin: 8px auto;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+  }
+}
