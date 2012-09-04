@@ -74,16 +74,6 @@ nav ul li a {
 #logo {
   text-align: center;
 }
-#logo h1 {
-  color: #ffffff;
-  font-family: 'Averia Libre', cursive;
-  font-size: 4em;
-  font-variant: small-caps;
-  font-weight: normal;
-  line-height: 1.3em;
-  margin: auto;
-  text-shadow: 1px 2px 3px #4a4a4a;
-}
 /*--------- SLIDER --------*//*----- (E-mable_Mod) ----*/
 .theme-default .nivo-caption a {
   color: #fff;
@@ -137,7 +127,6 @@ nav ul li a {
 }
 #Damnatio-Form input[type=Submit] {
   background: linear-gradient(to bottom, #8e753e 0%, #f9cc6c 50%, #8e753e 100%) !important;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZzEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjOGU3NTNlIi8+PHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNmOWNjNmMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4ZTc1M2UiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZzEpIiAvPjwvc3ZnPg==);
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   bottom: 25px;
@@ -150,12 +139,12 @@ nav ul li a {
   position: absolute;
   right: 8px;
   text-shadow: 0 1px 0 #c9b383;
+  transition: all 0.2s;
   height: 30px;
   width: 75px;
 }
 #Damnatio-Form input[type=Submit]:hover {
   box-shadow: 0 0 8px 0px #ffffff;
-  transition: all 0.2s;
 }
 #Damnatio-Form input:-moz-placeholder,
 #Damnatio-Form textarea:-moz-placeholder {
@@ -189,7 +178,6 @@ nav ul li a {
 }
 .link-more {
   background: linear-gradient(to bottom, #8e753e 0%, #f9cc6c 50%, #8e753e 100%) !important;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZzEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjOGU3NTNlIi8+PHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNmOWNjNmMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM4ZTc1M2UiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZzEpIiAvPjwvc3ZnPg==);
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   bottom: 25px;
@@ -200,12 +188,12 @@ nav ul li a {
   position: absolute;
   right: 8px;
   text-shadow: 0 1px 0 #c9b383;
+  transition: all 0.2s;
   height: 30px;
   width: 75px;
 }
 .link-more:hover {
   box-shadow: 0 0 8px 0px #ffffff;
-  transition: all 0.2s;
 }
 /*--------- FOOTER ----------
 ---------------------------*/
@@ -227,6 +215,7 @@ footer hgroup {
   font-size: 17px;
   font-weight: bold;
   margin: 8px auto;
+  transition: all 0.2s;
 }
 #sitemap li a:hover {
   text-decoration: underline;

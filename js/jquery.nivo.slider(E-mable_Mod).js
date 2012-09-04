@@ -102,10 +102,11 @@
                     }, settings.animSpeed);
                 } else {
                     nivoCaption.html(title);
-                    nivoCaption.stop().fadeIn(settings.animSpeed);
+                    nivoCaption.stop().slideToggle(settings.animSpeed);
+                    nivoCaption.delay(settings.pauseTime-(settings.animSpeed*3)).slideToggle(settings.animSpeed);
                 }
             } else {
-                nivoCaption.stop().fadeOut(settings.animSpeed);
+                nivoCaption.stop().slideToggle(settings.animSpeed);
             }
         }
         
@@ -648,14 +649,14 @@
         slices: 15,
         boxCols: 8,
         boxRows: 4,
-        animSpeed: 600,
-        pauseTime: 3000,
+        animSpeed: 700,
+        pauseTime: 8000,
         startSlide: 0,
         directionNav: false,
         directionNavHide: true,
         controlNav: true,
-        controlNavThumbs: false,
-        pauseOnHover: true,
+        controlNavThumbs: true,
+        pauseOnHover: false,
         manualAdvance: false,
         prevText: 'Prev',
         nextText: 'Next',
