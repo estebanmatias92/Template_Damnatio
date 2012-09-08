@@ -1,7 +1,7 @@
-/*                    Credit: http://www.e-mable.com/              */
+/*                    Credit: http://themeforest.net/user/EstebanMatias92             */
 /* Imports */
-/*                    Credit: http://www.e-mable.com/              */
-/*--------------------- E-MABLE VARs & FUNCTIONs --------------------
+/*                    Credit: http://themeforest.net/user/EstebanMatias92              */
+/*--------------------- E-M92 VARs & FUNCTIONs --------------------
 -------------------------------------------------------------------*/
 /*-------- MEASURES ---------
 ---------------------------*/
@@ -11,7 +11,7 @@
 ---------------------------*/
 /*--------- SHADOWS ---------
 ---------------------------*/
-/*---------------------- E-MABLE GLOBAL STYLES ----------------------
+/*---------------------- E-M92 GLOBAL STYLES ----------------------
 -------------------------------------------------------------------*/
 /*------- BACKGROUND --------
 ---------------------------*/
@@ -22,14 +22,14 @@ html {
   width: 1004px;
 }
 body {
-  background: linear-gradient(to bottom, #023b40 13%, #ffffff 49%, #ffffff 58%, #023b40 102%) !important;
+  background: linear-gradient(top, #023b40 13%, #ffffff 49%, #ffffff 58%, #023b40 100%);
+  background: -moz-linear-gradient(to bottom, #023b40 13%, #ffffff 49%, #ffffff 58%, #023b40 100%);
+  position: absolute;
   height: inherit;
   width: inherit;
-  position: absolute;
 }
-#e-mable_wrap {
+#E-M92_wrap {
   background-color: transparent;
-  background-image: ;
   box-sizing: content-box;
   z-index: 0;
 }
@@ -43,7 +43,7 @@ header {
 }
 /*----------- NAV ---------*/
 nav {
-  background: linear-gradient(to bottom, #f9e0ae 0%, #e8a617 100%) !important;
+  background: linear-gradient(#f9e0ae 0%, #e8a617 100%);
   box-shadow: 0 0 8px 1px #171717;
   position: relative;
   z-index: 3;
@@ -81,7 +81,6 @@ nav ul li a:hover {
 }
 nav ul li a.current {
   border-color: #e8a617;
-  transition: all 0s;
 }
 nav ul li:first-child {
   margin-left: 0;
@@ -101,9 +100,9 @@ nav ul li:last-child {
   height: 100%;
   width: auto;
 }
-/*--------- SLIDER --------*//*----- (E-mable_Mod) ----*/
-.e-mable_controlNav {
-  background: linear-gradient(to bottom, #023b40 5%, #285458 95%) !important;
+/*--------- SLIDER --------*//*----- (E-M92_Mod) ----*/
+.E-M92_controlNav {
+  background: linear-gradient(#023b40 5%, #285458 95%);
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   box-shadow: 0 0 4px 0px #303030;
@@ -114,15 +113,15 @@ nav ul li:last-child {
   /*!----- PRE CONTENTS -----*/
 
 }
-.e-mable_controlNav article {
-  background: linear-gradient(to bottom, #285458 5%, #11838d 95%) !important;
+.E-M92_controlNav article {
+  background: linear-gradient(#285458 5%, #11838d 95%);
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 4px 0px #303030;
   margin: 0 10px;
   padding: 0 8px;
   width: 76px;
 }
-.e-mable_controlNav article a {
+.E-M92_controlNav article a {
   background: url(../images/bullets.png) no-repeat;
   border-radius: 4px;
   cursor: pointer;
@@ -130,45 +129,46 @@ nav ul li:last-child {
   height: 100%;
   width: 100%;
 }
-.e-mable_controlNav article a:hover {
+.E-M92_controlNav article a:hover {
   background-position: 0 -100%;
 }
-.e-mable_controlNav article a.active {
+.E-M92_controlNav article a.active {
   background-position: 0 -100%;
 }
-.e-mable_controlNav article:first-child {
+.E-M92_controlNav article:first-child {
   margin-left: 0;
 }
-.e-mable_controlNav article:last-child {
+.E-M92_controlNav article:last-child {
   margin-right: 0;
 }
-.e-mable_controlNav.e-mable_thumbs_enabled {
+.E-M92_controlNav.E-M92_thumbs_enabled {
   height: 100px;
   width: 960px;
 }
-.e-mable_controlNav.e-mable_thumbs_enabled article {
+.E-M92_controlNav.E-M92_thumbs_enabled article {
   padding-bottom: 15px !important;
   padding-top: 15px !important;
   width: 176px;
 }
-.e-mable_controlNav.e-mable_thumbs_enabled article a {
+.E-M92_controlNav.E-M92_thumbs_enabled article a {
   background: #000000;
   overflow: hidden;
   height: auto;
   width: 157px;
 }
-.e-mable_controlNav.e-mable_thumbs_enabled article a img {
+.E-M92_controlNav.E-M92_thumbs_enabled article a img {
   display: block;
   transition: all 0.2s;
   height: 70px;
   width: auto;
 }
-.e-mable_controlNav.e-mable_thumbs_enabled article a:hover img {
+.E-M92_controlNav.E-M92_thumbs_enabled article a:hover img {
   opacity: 0.5;
 }
 /*------ PRE CONTENTS -----*/
 .nivo-caption {
-  background: linear-gradient(to top, rgba(230, 163, 23, 0) 7%, rgba(230, 163, 23, 0.55) 45%, rgba(230, 163, 23, 0.7) 65%, #e6a317 95%) !important;
+  background: linear-gradient(bottom, rgba(230, 163, 23, 0) 7%, rgba(230, 163, 23, 0.55) 45%, rgba(230, 163, 23, 0.7) 65%, #e6a317 95%);
+  background: -moz-linear-gradient(to top, rgba(230, 163, 23, 0) 7%, rgba(230, 163, 23, 0.55) 45%, rgba(230, 163, 23, 0.7) 65%, #e6a317 95%);
   border-radius: 4px;
   box-sizing: border-box;
   display: none;
@@ -233,7 +233,7 @@ footer img {
   width: auto;
 }
 .main .area {
-  background: linear-gradient(to bottom, #285458 15%, #023b40 85%) !important;
+  background: linear-gradient(#285458 15%, #023b40 85%);
   box-shadow: 0 -1px 4px 0px #4a4a4a;
 }
 .area {
@@ -277,7 +277,7 @@ footer img {
   float: right;
 }
 #Damnatio-Form input {
-  background: linear-gradient(to bottom, #023b40 0%, #a1dde2 20%) !important;
+  background: linear-gradient(#023b40 0%, #a1dde2 20%) !important;
   height: 30px;
 }
 #Damnatio-Form input[type=text] {
@@ -303,7 +303,7 @@ footer img {
   transition: all 0.2s;
 }
 #Damnatio-Form textarea {
-  background: linear-gradient(to bottom, #023b40 0%, #a1dde2 6%) !important;
+  background: linear-gradient(#023b40 0%, #a1dde2 6%) !important;
   max-height: 120px;
   max-width: 435px;
   min-height: 100px;
@@ -358,7 +358,7 @@ footer {
   z-index: 2;
 }
 footer .area {
-  background: linear-gradient(to bottom, #6d4c03 2%, #8e753e 98%) !important;
+  background: linear-gradient(#6d4c03 2%, #8e753e 98%);
   border-radius: 4px;
   box-shadow: 0 1px 4px 0px #303030;
   height: 225px;
@@ -385,22 +385,22 @@ footer .area article img {
   width: 270px;
 }
 #socialmedia li a {
-  background: linear-gradient(to bottom, #8e753e 0%, #f9cc6c 50%, #8e753e 100%) !important;
+  background: linear-gradient(#8e753e 0%, #f9cc6c 50%, #8e753e 100%);
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   box-shadow: 0 0 8px 0px #171717;
   box-sizing: border-box;
+  margin: 5px auto;
   transition: all 0.2s;
   height: 30px;
   width: 75px;
-  margin: 5px auto;
 }
 #socialmedia li a img {
   background-color: transparent;
   border: none;
   box-shadow: none;
-  height: 28px;
-  width: auto;
+  height: auto;
+  width: 28px;
 }
 #socialmedia li a:hover {
   box-shadow: 0 0 8px 0px #ffffff;

@@ -1,4 +1,4 @@
-// E-mable functions
+// Functions
 
 // Menu Bar current function
 /*$(document).ready(function(){
@@ -8,14 +8,15 @@
     $("nav ul li a[href='"+ current_page +"']").addClass("active"); //Asignamos la clase llamada "activo"
 });*/
 
-$(document).ready(function(){
+// Nav animation
+/*$(document).ready(function(){
 	var path = location.pathname.substring(1);
 	if ( path )
-		$('nav ul li a[href$="' + path + '"]').attr('class', 'nav ul li a.active');
+		$('nav ul li a[href$="' + path + '"]').attr('class', 'nav ul li a.current');
 		$('nav ul li a[href$="' + path + '"]').hover(function(){
-			$(this).addclass("nav ul li a.active");
+			$(this).addclass("nav ul li a.current");
 		});
-});
+});*/
 
 //NivoSlider ThumbNails effect
 /*$(document).ready(function(){
@@ -30,7 +31,7 @@ $(document).ready(function(){
 // SocialMedia buttons animated
 $(document).ready(function() {
     $('#socialmedia li a').hover(function() {
-        $(this).stop().animate({ width: '35px' }, 150);
+        $(this).stop().animate({ width: '40px' }, 150);
     }, function() {
         	$(this).stop().animate({ width: '70px' }, 300);
     });

@@ -1,8 +1,8 @@
 @import "http://fonts.googleapis.com/css?family=Convergence|Averia+Libre:700,400|Righteous|Montserrat";
-/*                    Credit: http://www.e-mable.com/              */
+/*                    Credit: http://themeforest.net/user/EstebanMatias92              */
 /* Imports */
-/*                    Credit: http://www.e-mable.com/              */
-/*--------------------- E-MABLE VARs & FUNCTIONs --------------------
+/*                    Credit: http://themeforest.net/user/EstebanMatias92              */
+/*--------------------- E-M92 VARs & FUNCTIONs --------------------
 -------------------------------------------------------------------*/
 /*-------- MEASURES ---------
 ---------------------------*/
@@ -13,7 +13,7 @@
 /*--------- SHADOWS ---------
 ---------------------------*/
 /* Google Web Fonts */
-/*----------------------- E-MABLE FONTS STYLES ----------------------
+/*----------------------- E-M92 FONTS STYLES ----------------------
 -------------------------------------------------------------------*/
 /*------- BACKGROUND --------
 ---------------------------*/
@@ -74,7 +74,7 @@ nav ul li a {
 #logo {
   text-align: center;
 }
-/*--------- SLIDER --------*//*----- (E-mable_Mod) ----*/
+/*--------- SLIDER --------*//*----- (E-M92_Mod) ----*/
 .theme-default .nivo-caption a {
   color: #fff;
   border-bottom: 1px dotted #fff;
@@ -126,7 +126,7 @@ nav ul li a {
   padding: 1em 0.5em 0.5em 0.5em;
 }
 #Damnatio-Form input[type=Submit] {
-  background: linear-gradient(to bottom, #8e753e 0%, #f9cc6c 50%, #8e753e 100%) !important;
+  background: linear-gradient(#8e753e 0%, #f9cc6c 50%, #8e753e 100%) !important;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   bottom: 25px;
@@ -177,7 +177,7 @@ nav ul li a {
   letter-spacing: 1px;
 }
 .link-more {
-  background: linear-gradient(to bottom, #8e753e 0%, #f9cc6c 50%, #8e753e 100%) !important;
+  background: linear-gradient(#8e753e 0%, #f9cc6c 50%, #8e753e 100%);
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   bottom: 25px;
