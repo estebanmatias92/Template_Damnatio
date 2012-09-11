@@ -1,0 +1,45 @@
+- Javascript Libraries:
+-----------------------
+
+With the exception of "jQuery.nivo.slider(E-M92_Mod).js", "functions.js") and "Vanidium_en.js", all other javascript libraries are called in the HTML document using CDN to optimize loading speed of the web template. If in future need arises to use them natively on the website, they are stored in the folder "js/libs".
+
+
+- jQuery. nivo.slider (E-M92_Mod). js:
+-----------------------------------
+
+It's a personal plugin modification of "Nivo-Slider", licensed for use is here "http://www.opensource.org/licenses/mit-license.php".
+
+
+- Functions. Js:
+---------------
+
+It is the library where i store other jQuery functions.
+
+
+- Files or LESS. Less:
+------------------------
+
+LESS is a "writing" preprocessing for CSS design language, as SASS and Stylus.
+Files .less, are located in the folder "less", if you know about this preprocessor language, should only include files in a preprocessor LESS (Less.app for Mac or Winless for Windows). The compiler will make the respective output of each file .less, transforming it into a file .css.
+
+
+- variables. less:
+-----------------
+
+As the name suggests these are the variables which are handled by other files .less. variables include colors, widths and measurement functions to facilitate the "programming" in CSS.
+
+
+- global. less:
+--------------
+
+It's outputs "global.css" folder "css", here are all the template design, colors, sizes, image management, and more.
+
+- fonts. less:
+-------------
+Not much to add, are the styles of sources around the template, here are the paragraphs, titles, power buttons, etc, everything about typography is here.
+
+
+- Images:
+---------
+
+All the images are in the folder "images", then from there, are divided into subfolders, but it's pretty intuitive.

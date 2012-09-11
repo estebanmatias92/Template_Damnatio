@@ -1,18 +1,7 @@
-@import "http://fonts.googleapis.com/css?family=Convergence|Averia+Libre:700,400|Righteous|Montserrat";
 /*                    Credit: http://themeforest.net/user/EstebanMatias92              */
-/* Imports */
-/*                    Credit: http://themeforest.net/user/EstebanMatias92              */
-/*--------------------- E-M92 VARs & FUNCTIONs --------------------
--------------------------------------------------------------------*/
-/*-------- MEASURES ---------
----------------------------*/
-/*---------- WIDTH ----------
----------------------------*/
-/*--------- COLORS ----------
----------------------------*/
-/*--------- SHADOWS ---------
----------------------------*/
 /* Google Web Fonts */
+@import "http://fonts.googleapis.com/css?family=Convergence|Averia+Libre:700,400|Righteous|Montserrat";
+
 /*----------------------- E-M92 FONTS STYLES ----------------------
 -------------------------------------------------------------------*/
 /*------- BACKGROUND --------
@@ -104,6 +93,10 @@ nav ul li a {
   margin-top: 25px;
 }
 #service ul li {
+  background: url(../images/icons/service-icon.png) no-repeat 0 0;
+  background-size: 15px;
+  display: block;
+  padding-left: 20px;
   margin: 12px 5px;
 }
 #service .area h2 {
